@@ -1,0 +1,13 @@
+html, body {
+	background: $COLOR_BG_PRIMARY;
+	color: $COLOR_TXT_PRIMARY;
+	width: 100%;
+	font-size: $FONT_SMALL;
+	font-family: $FONT_FAMILY_PRIMARY;
+}
+a {
+	color: $COLOR_LINK;
+}
+a:hover {
+	color: $COLOR_LINK_HOVER;
+}

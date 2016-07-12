@@ -1,0 +1,21 @@
+
+// clearfix
+//
+// クリアフィックス
+//
+// Styleguide 1.3
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+.wrapper {
+	width: 100%;
+}
+// TEXT
+//
+// クリアフィックス
+//
+// Styleguide 1.3
+.txt {}

@@ -1,0 +1,10 @@
+@mixin mqPC {
+	@media (min-width: $PC_POINT) {
+		@content;
+	}
+}
+@mixin mqSP {
+	@media (min-width: $SP_POINT) {
+		@content;
+	}
+}
