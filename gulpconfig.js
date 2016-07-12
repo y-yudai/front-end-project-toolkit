@@ -1,6 +1,6 @@
 // ==== CONFIGURATION ==== //
 
-var project  = 'LEIHAUOLI_PROJECT_NAME';
+var project  = 'PROJECT_NAME';
 var src      = './src/';
 var build    = './build/';
 var modules  = './node_modules/';

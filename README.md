@@ -5,11 +5,10 @@ front-end development template for developers.
 If you notice some bugs, feel free to create an issue, and we will solve your problem together.
 We use npm package manager to manage our modules and Gulp to run automated tasks.
 
-## Installation
+## Quick start
 ```
-npm i front-end-project-toolkit
-
+git clone https://github.com/y-yudai/front-end-project-toolkit.git
 ```
 
 ## Author
-Yudai Yamamoto
+[Yudai Yamamoto](https://www.facebook.com/yudai.yamamoto.754)
