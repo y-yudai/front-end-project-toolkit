@@ -1,5 +1,8 @@
 // ==== CONFIGURATION ==== //
 
+var path    = require("path");
+var webpack = require("webpack");
+
 var project  = 'PROJECT_NAME';
 var src      = './src/';
 var build    = './build/';
@@ -57,5 +60,22 @@ module.exports = {
 			dest:       build,
 			ext:        '.html'
 		}
+	},
+	webpack: {
+		devtool: "#source-map",
+		entry: {
+			index: src + 'js/index.js',
+			common: src + 'js/common.js'
+		},
+		output: {
+			filename: '[name].bundle.min.js'
+		},
+		plugins: [
+			new webpack.optimize.UglifyJsPlugin(),
+			new webpack.ProvidePlugin({
+				jQuery: "jquery",
+				$: "jquery"
+			})
+		]
 	}
 };
