@@ -1,23 +1,36 @@
 @charset "utf-8";
 
-// TOOLS
-@import "tools/variables";
-@import "tools/mediaquery";
+// Global
+@import "global/variables";
+@import "global/mediaquery";
 
-// BASE
+// Base
 @import "base/base";
+@import "base/reset";
 
-// LAYOUT
-@import "layout/header";
-@import "layout/top";
-@import "layout/page";
-@import "layout/footer";
+// Atoms
+@import "atoms/btn";
+@import "atoms/forms";
+@import "atoms/txt";
+@import "atoms/images";
 
-// MODULE
-@import "module/btn";
+// Molecules
+@import "molecules/blocks";
+@import "molecules/forms";
+@import "molecules/grid";
+@import "molecules/messaging";
+@import "molecules/nav";
 
-// STATE
-@import "state/state";
+//Organisms
+@import "organisms/header";
+@import "organisms/footer";
+@import "organisms/modal";
 
-// THEME
-@import "theme/theme";
+// Templates
+@import "templates/forms";
+
+// Pages
+@import "pages/index";
+@import "pages/about";
+@import "pages/contact";
+

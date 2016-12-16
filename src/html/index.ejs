@@ -1,0 +1,19 @@
+<%
+	var data = {
+		title:'タイトルを入力してください',
+		desc:'説明',
+		key: 'キーワード'
+	};
+%>
+<%- include('./include/_header.ejs',{meta:data}) %>
+		<div class="l-frame">
+			<div class="l-frame-inner">
+				<p class="sample-txt">
+					FRONT-END TOOL KIT<br>
+					front-end development template for web apps and sites.<br>
+					If you notice some bugs, feel free to create an issue, and we will solve your problem together.<br>
+					We use npm package manager to manage our modules and Gulp to run automated tasks.
+				</p>
+			</div>
+		</div>
+<%- include('./include/_footer.ejs') %>

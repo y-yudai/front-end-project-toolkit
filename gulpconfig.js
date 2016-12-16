@@ -16,7 +16,7 @@ module.exports = {
 		}
 	},
 	livereload: {
-		port: 35729
+		port: 3030
 	},
 	scripts: {
 		src: src + 'js/**/*.js',
@@ -36,6 +36,9 @@ module.exports = {
 			onError: function(err) {
 				return console.log(err);
 			}
+		},
+		sourcemap : {
+			dest: 'sourcemap/'
 		}
 	},
 	watch: {

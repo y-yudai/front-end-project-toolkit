@@ -16,4 +16,4 @@ gulp.task('theme-ejs', function() {
 		.pipe(gulp.dest(config.ejs.dest));
 });
 
-gulp.task('theme', ['theme-php','theme-ejs']);
+gulp.task('theme', ['theme-ejs']);
