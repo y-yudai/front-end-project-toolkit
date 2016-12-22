@@ -9,6 +9,9 @@ var build    = './build/';
 var modules  = './node_modules/';
 
 module.exports = {
+    info: {
+        name: project
+    },
 	images: {
 		build: {
 			src: src + 'img/**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)',
