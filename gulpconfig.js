@@ -77,7 +77,10 @@ module.exports = {
 			filename: '[name].bundle.min.js'
 		},
 		plugins: [
-			new webpack.optimize.UglifyJsPlugin(),
+			new webpack.optimize.UglifyJsPlugin({
+				compress: {
+					warnings: false
+				}}),
 			new webpack.ProvidePlugin({
 				jQuery: "jquery",
 				$: "jquery"

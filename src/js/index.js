@@ -1,1 +1,1 @@
-console.log("index");
+var scrollPage = require("./modules/scroll.js");
