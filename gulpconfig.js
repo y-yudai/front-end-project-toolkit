@@ -1,12 +1,8 @@
 // ==== CONFIGURATION ==== //
-
-var path    = require("path");
 var webpack = require("webpack");
-
 var project  = 'PROJECT_NAME';
 var src      = './src/';
 var build    = './build/';
-var modules  = './node_modules/';
 
 module.exports = {
     info: {
