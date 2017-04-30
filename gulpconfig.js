@@ -14,9 +14,6 @@ module.exports = {
 			dest: build + 'img'
 		}
 	},
-	livereload: {
-		port: 3030
-	},
 	scripts: {
 		src: src + 'js/**/*.js',
 		dest: build + 'js'

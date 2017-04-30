@@ -4,7 +4,8 @@
   "description": "for front-end-developers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "author": "YudaiYamamoto",
   "license": "ISC",
@@ -13,13 +14,13 @@
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-ejs": "^2.1.1",
-    "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "^1.2.0",
     "gulp-sass": "^2.1.1",
     "gulp-sourcemaps": "^1.9.1",
     "gulp-webpack": "^1.5.0",
     "require-dir": "^0.3.0",
-    "webpack": "^1.14.0"
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
     "gulp": "^3.9.1",
